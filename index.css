@@ -181,7 +181,7 @@
     color: white;
     text-shadow: 2px 1px black;
     top: 250px;
-    left: 200px;
+    left: 250px;
 }
 
 .banner_1 h4 {
@@ -189,7 +189,7 @@
     color: white;
     text-shadow: 2px 1px black;
     top: 320px;
-    left: 200px;
+    left: 250px;
 }
 
 .banner_1 a {
@@ -199,7 +199,7 @@
     border-radius: 20px;
     border: 1px solid black;
     top: 400px;
-    left: 200px;
+    left: 250px;
     text-decoration: none;
     box-shadow: 1px 1px 0.8px black;
 }
@@ -226,6 +226,7 @@
 /* Spotlight div CSS */
 
 .spotlight {
+    min-width: 850px;
     width: 75%;
     margin: 0px auto;
     display: flex;

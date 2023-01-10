@@ -1,0 +1,266 @@
+/* Navigation-bar CSS */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 700px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.navbar_img {
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.navbar_btns {
+    min-width: 500px;
+    margin: 0px 10px;
+}
+
+.navbar_btns ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.navbar_btns li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.navbar_btns a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: darkblue;
+    font-weight: bold;
+
+}
+
+.navbar_btns a:hover {
+    background-color: rgb(232, 129, 11);
+    color: white;
+    box-shadow: 1px 1px 0.1px black;
+}
+
+.navbar_btns i {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#sign_in_btn {
+    color: white;
+    background-color: black;
+}
+
+
+/* Exploring div CSS */
+.explorer_div {
+    display: flex;
+    justify-content: center;
+    min-width: 850px;
+    min-height: 40px;
+    margin-top: 95px;
+}
+
+.explorer_div > ul {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+.explorer_div > ul > .explorer_li {
+    margin: 10px 5px;
+    width: 170px;
+    height: 70px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.explorer_li > a {
+    text-decoration: none;
+    padding: 20%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.explorer_div a:hover {
+    color: white;
+    background-color: black;
+}
+
+.explorer_div i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.explorer_div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+/* Search img and search bar CSS */
+
+.search_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    min-width: 850px;
+    overflow: hidden;
+}
+
+.search_div_img {
+    width: 75%;
+}
+
+.search_bar {
+    position: absolute;
+    align-self: center;
+    min-width: 400px;
+    height: 40px;
+    opacity: 60%;
+    border-radius: 20px;
+    background-image: url(images/magnifying-glass-solid.svg);
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+/* Banner 1 CSS */
+
+.banner_1 {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    height: 500px;
+    min-width: 850px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner_1_img {
+    width: 75%;
+}
+
+.banner_1 a, h1, h4 {
+    position: absolute;
+}
+
+.banner_1 h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 1px black;
+    top: 250px;
+    left: 200px;
+}
+
+.banner_1 h4 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 1px black;
+    top: 320px;
+    left: 200px;
+}
+
+.banner_1 a {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    top: 400px;
+    left: 200px;
+    text-decoration: none;
+    box-shadow: 1px 1px 0.8px black;
+}
+
+/* banner 2 CSS */
+
+.banner_2 {
+    width: 75%;
+    margin: 40px auto;
+    margin-bottom: 0px;
+    min-height: 100px;
+}
+
+.banner_2 h1{
+    margin: 0px;
+    font-size: 35px;
+}
+
+.banner_2 h4{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/* Spotlight div CSS */
+
+.spotlight {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.spotlight div {
+    margin: 10px;
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    position: relative;
+}
+
+.spotlight img {
+    width: 230px;
+    height: 230px;
+}
+
+.spotlight > div > a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 4px 20px black;
+}
+
+.spotlight > div > a > h2 {
+    position: absolute;
+    font-weight: bold;
+    margin: 0px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.spotlight img:hover {
+    opacity: 0.8;
+}
